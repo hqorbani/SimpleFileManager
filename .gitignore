@@ -1,0 +1,16 @@
+# Created by https://www.toptal.com/developers/gitignore/api/python
+# Edit at https://www.toptal.com/developers/gitignore?templates=python
+symbols/
+### Python ###
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+apps/__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+.venv
+.env
