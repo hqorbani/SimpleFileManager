@@ -13,6 +13,9 @@ class FileManagerView:
 
         self.delete_button = ttk.Button(self.root, text="حذف فایل انتخاب‌شده")
         self.delete_button.pack(pady=10)
+        
+        self.export_button = ttk.Button(self.root, text="📤 pdf")
+        self.export_button.pack(pady=10)
 
         self.file_listbox = ttk.Treeview(self.root, columns=("ID", "Filename"), show="headings")
         self.file_listbox.heading("ID", text="شناسه")
